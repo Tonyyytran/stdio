@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/John/Desktop/CLionProjects/stdio/main.cpp
+stdio.h
+/cygdrive/c/Users/John/Desktop/CLionProjects/stdio/stdio.h
+sys/stat.h
+-
+sys/types.h
+-
+sys/uio.h
+-
+unistd.h
+-
+string.h
+-
+
+/cygdrive/c/Users/John/Desktop/CLionProjects/stdio/stdio.cpp
+fcntl.h
+-
+sys/types.h
+-
+sys/uio.h
+-
+unistd.h
+-
+strings.h
+-
+string.h
+-
+stdarg.h
+-
+stdlib.h
+-
+iostream
+-
+
+/cygdrive/c/Users/John/Desktop/CLionProjects/stdio/stdio.h
+stdio.cpp
+/cygdrive/c/Users/John/Desktop/CLionProjects/stdio/stdio.cpp
+
